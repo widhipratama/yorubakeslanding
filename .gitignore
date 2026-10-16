@@ -1,5 +1,94 @@
+# ========================================
+# Dependencies
+# ========================================
 node_modules/
+
+# ========================================
+# Build Output
+# ========================================
 dist/
+
+# ========================================
+# AI / IDE Configuration (SENSITIVE)
+# ========================================
+# OpenAI Codex / hosting config (contains project IDs)
+.openai/
+
+# Google Gemini / Antigravity
+.gemini/
+.agents/
+
+# Cursor AI
+.cursor/
+.cursorignore
+.cursorules
+
+# GitHub Copilot
+.copilot/
+
+# Other AI tools
+.aider*
+.codeium/
+.continue/
+.tabnine/
+
+# ========================================
+# IDE & Editor Settings
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# Archives & Compressed Files
+# ========================================
 *.zip
 *.tar.gz
+*.rar
+*.7z
+
+# ========================================
+# Preview / Temp Images
+# ========================================
 preview-*.png
+
+# ========================================
+# Python (helper scripts cache)
+# ========================================
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ========================================
+# Environment / Secrets
+# ========================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ========================================
+# OS Generated Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ========================================
+# Logs
+# ========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
